@@ -1,5 +1,11 @@
 # Smart Event Planner - Backend
 
+**Hosted API:**  
+[https://smart-event-planner-backend-assignment.onrender.com/events](https://smart-event-planner-backend-assignment.onrender.com/events)
+
+**Postman Collection:**  
+[Smart Event Planner API (Postman)](https://gist.github.com/MAHESH94944/7f3aba88d816d02269763bc76590f8a8)
+
 A backend service to help users plan outdoor events by integrating weather forecasts and providing intelligent recommendations for event timing and location.
 
 ## Features
