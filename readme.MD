@@ -1,5 +1,9 @@
 # Smart Event Planner - Backend
 
+## Problem Statement
+
+Build a backend service that helps users plan outdoor events by integrating multiple APIs to provide intelligent recommendations. The system should consider weather forecasts, venue availability, traffic conditions, and user preferences to suggest optimal event timing and locations.
+
 **Hosted API:**  
 [https://smart-event-planner-backend-assignment.onrender.com/events](https://smart-event-planner-backend-assignment.onrender.com/events)
 
