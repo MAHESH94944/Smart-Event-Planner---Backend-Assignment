@@ -27,13 +27,12 @@ exports.updateEvent = async (req, res) => {
       const event = await Event.findById(req.params.id);
       if (!event) return res.status(404).json({ error: 'Event not found' });
   
-      // Apply updates
       if (req.body.name) event.name = req.body.name;
       if (req.body.location) event.location = req.body.location;
       if (req.body.date) event.date = req.body.date;
       if (req.body.eventType) event.eventType = req.body.eventType;
   
-      await event.save(); // this actually persists the change
+      await event.save(); 
       res.json(event);
     } catch (err) {
       console.error('Update error:', err);
