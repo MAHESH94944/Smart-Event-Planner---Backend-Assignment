@@ -2,7 +2,7 @@ const axios = require('axios');
 require('dotenv').config();
 
 exports.getWeatherForDate = async (location, date) => {
-  const apiKey = process.env.WEATHER_API_KEY;
+  const apiKey = process.env.WEATHER_API_KEY || "34b5b750e0b6137f740199a8b68ba73f";
   const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${apiKey}&units=metric`;
   const response = await axios.get(url);
 
